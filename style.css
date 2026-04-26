@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at bottom, #0e1216 0%, #090a0f 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+#starContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, #eee, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 40px 70px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 90px 40px, #fff, rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 130px 80px, #fff, rgba(0, 0, 0, 0));
+background-repeat: repeat;
+background-size: 250px 250px;
+animation: twinkle 4s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+    0%,
+    100% {
+        opacity: 0.3;
+    } 
+    50% {
+        opacity: 1;
+    }
+}
+
+.container {
+  position: relative;
+  background-color: rgb(36, 35, 35);
+  padding: 50px 30px 30px 30px;
+  border-radius: 20px;
+  border: 1px solid #d4af37;
+  box-shadow: 2px 2px 5px #d4af3728;
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+
+.chapeu-img {
+    position: absolute;
+    width: 250px;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.9));
+}
+
+input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 10px;
+  background-color: #d4af37;
+  font-weight: bold;
+}
+
+.grifinoria {
+  color: rgba(175, 7, 7, 0.849);
+  text-shadow: 1px 1px 5px #000;
+}
+
+.sonserina {
+  color: green;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.corvinal {
+  color: rgb(43, 43, 182);
+  text-shadow: 1px 1px 5px #000;
+}
+
+.lufa-lufa {
+  color: rgba(255, 255, 0, 0.603);
+  text-shadow: 1px 1px 5px #000;
+}

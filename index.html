@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapéu seletor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="starContainer"></div>
+    <div class="container" id="resultadoContainer">
+      <img src="chapeuSeletor.png" alt="chapéu seletor" class="chapeu-img" />
+      <h1>Chapéu seletor</h1>
+      <p>Qual a sua maior qualidade?</p>
+      <input
+        type="text"
+        id="inQualidade"
+        placeholder="Exemplo: Coragem, Ambição..."
+        required
+      />
+      <button onclick="inButton()">Perguntar ao Chapéu</button>
+      <h2 id="resultado">Aguardando Resposta</h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
