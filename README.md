@@ -6,6 +6,12 @@ Bem-vindo ao projeto **Chapéu Seletor**! Uma aplicação web interativa e mági
 
 ---
 
+## 📸 Preview do Projeto
+
+<img src='assets/ex02.jpeg'/>
+
+---
+
 ## 📜 Sobre o Projeto
 
 Este é um projeto **concluído** focado no desenvolvimento front-end. A ideia principal é simular o famoso Chapéu Seletor: o usuário insere uma característica marcante e, a partir dessa palavra-chave, a aplicação revela a qual casa de Hogwarts ele pertence.
@@ -21,6 +27,10 @@ O programa identifica a casa correta quando o usuário digita uma das seguintes 
 
 > **Nota:** O sistema reage a essas palavras específicas para fazer a "mágica" acontecer na tela.
 
+### 🏠 Resultado das Casas
+
+<img src='assets/ex01.jpeg'/>
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -30,7 +40,7 @@ Este projeto foi construído utilizando as seguintes tecnologias e ferramentas d
 **Desenvolvimento:**
 * **HTML5** - Estruturação semântica do conteúdo.
 * **CSS3** - Estilização, layout e animações visuais.
-* **JavaScript** - Lógica de programação e interatividade (validação dos inputs do usuário).
+* **JavaScript** - Lógica de programação e interatividade.
 
 **Design e Protótipagem:**
 * **Figma** - Criação do layout, wireframes e protótipos da interface.
